@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- En la primera etapa del laboratorio pueden iniciar sin viewport.
+         Cuando el profesor lo indique, deberán agregarlo para ver la diferencia:
+         <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Detalle del Libro</title>
+    <link rel="stylesheet" href="style/detalle.css">
+    ,<link rel="stylesheet" href="style/style.mq.css">
+
+</head>
+<body>
+
+    <!-- Header: debe mantenerse igual al del ejercicio original -->
+    <header>
+        <h1>Novedades</h1>
+    </header>
+
+    <!-- Contenedor principal de la página de detalle -->
+    <main class="book-detail">
+
+        <!-- Sección 1: portada del libro -->
+        <section class="cover-section">
+            <img src="IMG/LOTR.jpg" alt="Portada del libro">
+        </section>
+
+        <!-- Sección 2: información general del libro -->
+        <section class="info-section">
+            <h2>El señor de los anillos: La comunidad del anillo</h2>
+            <p class="author-name">Autor: J.R.R. Tolkien</p>
+            <p class="synopsis">
+                Frodo Bolsón, un hobbit, hereda un anillo mágico que pertenece al Señor Oscuro Sauron. 
+                Su misión es destruir el anillo en la Montaña del Destino, donde fue creado. 
+                Frodo se une a un grupo de compañeros para emprender el viaje, enfrentándose a numerosos peligros y desafíos.
+                juega Quidditch y descubre que debe proteger la Piedra Filosofal de Lord Voldemort, el mago oscuro que mató a sus padres.
+            </p>
+        </section>
+
+        <!-- Sección 3: biografía del autor -->
+        <section class="author-section">
+            <h2>Biografía del autor</h2>
+            <p>
+                J.R.R. Tolkien (John Ronald Reuel Tolkien, nacido en 1892) fue un escritor y lingüista británico, famoso por crear la saga de El señor de los anillos. 
+                Tras una época de dificultades económicas y personales, publicó el primer libro en 1954, convirtiéndose en una de las escritoras más ricas y vendidas de la historia, 
+                con más de 600 millones de copias traducidas a 84 idiomas
+            </p>
+        </section>
+
+        <!-- Sección 4: reseña y calificación -->
+        <section class="review-section">
+            <h2>Reseña del libro</h2>
+            <p>
+                Al principio de El señor de los anillos: La comunidad del anillo, Frodo Bolsón hereda un anillo mágico que pertenece al Señor Oscuro Sauron. 
+                Su misión es destruir el anillo en la Montaña del Destino, donde fue creado. 
+                Frodo se une a un grupo de compañeros para emprender el viaje, enfrentándose a numerosos peligros y desafíos.
+            </p>
+
+            <!-- Las estrellas pueden manejarse como texto o iconos -->
+            <div class="rating" style="--rating: 4.5;" aria-label="Calificación: 4.5 de 5 estrellas">
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer: debe mantenerse igual al del ejercicio original -->
+    <footer>
+        <p>&copy; 2026 Catalogo de libros. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

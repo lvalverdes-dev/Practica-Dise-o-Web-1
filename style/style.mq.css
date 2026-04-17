@@ -1,0 +1,89 @@
+/*================================
+Media query para tablet: 
+Crear una regla que va a levantarse cuano la pantalla tiene 
+768px o menos. 
+El cambio que se va a hacer es que va a pasar de dos tarjetas por fila a una
+tarjeta por fila. 
+Esto porque la pantalla de una tableta, 2 tarjetas puede ser mucho. 
+Vamos a tomar cada tarjeta para que ocupa el 100%, lo que la va a hacer mas legible. 
+==================================
+*/
+
+@media (max-width: 768px) {
+    .book-detail{
+        width: 95%;
+        margin: 1.5rem auto;
+    }
+    .catalog{
+        flex-direction: column;
+        align-items: center;
+    }
+    .book {
+        width: 90%;
+        max-width: 400px;
+    }
+    .book img{
+        height: 180px;
+    }
+    cover-section img{
+        max-width: 250px;
+    }
+    .info-section,
+    .author-section,
+    .review-section{
+        padding: 1.2rem;
+    }
+    .info-section h2 {
+        font-size: 1.3rem;
+    }
+}
+
+/*================================
+Media query para celular: 
+Crear una regla que va a levantarse cuano la pantalla tiene 
+480px o menos. 
+Los ajustes que se van a hacer no solo son del ancho sino de legibilidad. 
+==================================
+*/
+
+@media (max-width: 480px) {
+    .catalog{
+        flex-direction: column;
+        align-items: center;
+    }
+    .book {
+        width: 90%;
+        max-width: 400px;
+    }
+    .book-detail{
+        width: 95%;
+        margin: 1rem auto;  
+    }
+    .book img{
+        height: 180px;
+    }
+    .cover-section img{
+        max-width: 100%;
+    }
+}
+    .info-section,
+    .review-section,
+    .author-section{
+        padding: 1rem;
+    }
+    .info-section h2{
+        font-size: 1.5rem;
+    }
+    .author-name,
+    .synopsis,
+    .author-section p,
+    .review-section p{
+        font-size: 0.95rem;
+    }
+    .rating{
+        font-size: 1.6rem;
+    }
+    .header,
+    footer{
+        padding: 15px;
+}    

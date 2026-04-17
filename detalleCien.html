@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- En la primera etapa del laboratorio pueden iniciar sin viewport.
+         Cuando el profesor lo indique, deberán agregarlo para ver la diferencia:
+         <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Detalle del Libro</title>
+    <link rel="stylesheet" href="style/detalle.css">
+    ,<link rel="stylesheet" href="style/style.mq.css">
+</head>
+<body>
+
+    <!-- Header: debe mantenerse igual al del ejercicio original -->
+    <header>
+        <h1>Novedades</h1>
+    </header>
+
+    <!-- Contenedor principal de la página de detalle -->
+    <main class="book-detail">
+
+        <!-- Sección 1: portada del libro -->
+        <section class="cover-section">
+            <img src="IMG/cien_años.png" alt="Portada del libro">
+        </section>
+
+        <!-- Sección 2: información general del libro -->
+        <section class="info-section">
+            <h2>Cien años de soledad</h2>
+            <p class="author-name">Autor: Gabriel García Márquez</p>
+            <p class="synopsis">
+                Cien años de soledad es una novela de Gabriel García Márquez, publicada en 1967. 
+                La obra narra la historia de la familia Buendía a través de siete generaciones en el pueblo ficticio de Macondo.
+            </p>
+        </section>
+
+        <!-- Sección 3: biografía del autor -->
+        <section class="author-section">
+            <h2>Biografía del autor</h2>
+            <p>
+                Gabriel García Márquez (1928-2014) fue un escritor colombiano, ganador del Premio Nobel de Literatura en 1982. 
+                Es conocido por su estilo de narrativa mágica y su capacidad para fusionar lo real con lo fantástico.
+            </p>
+        </section>
+
+        <!-- Sección 4: reseña y calificación -->
+        <section class="review-section">
+            <h2>Reseña del libro</h2>
+            <p>
+                Al principio de Harry Potter y la piedra filosofal, Harry de bebé se ha quedado huérfano, 
+                y unos peculiares personajes (Dumbledore, la profesora McGonagall transformada en gata, y Hagrid, 
+                quien viene volando en una moto) le encuentran un nuevo hogar. Durante casi diez años, 
+                Harry llevará una vida horrible con sus horrendos y materialistas tíos y primo. 
+                Aquí Rowling se centra en mofarse de los familiares, que son tan ridículos (y tan normales) que acabas riéndote, 
+                a pesar de lo mal que tratan a Harry. Lo que más me gusta de esta parte, y me parece genial, es la llegada de cartas dirigidas al chico, 
+                empeñadas en que lleguen a su destinatario, y las medidas tan absurdas que toman los tíos para evitarlo.
+            </p>
+
+            <!-- Las estrellas pueden manejarse como texto o iconos -->
+            <div class="rating" style="--rating: 4.5;" aria-label="Calificación: 4.5 de 5 estrellas">
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer: debe mantenerse igual al del ejercicio original -->
+    <footer>
+        <p>&copy; 2026 Catalogo de libros. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
